@@ -6,6 +6,11 @@ def index():
     return render_template("index.html")
 
 
+# @app.route('/process_money')
+# def roll():
+#     return
+
+
 
 if __name__=="__main__":
     app.run(debug=True)
